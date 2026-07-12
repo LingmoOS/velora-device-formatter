@@ -3,19 +3,19 @@
 %define specrelease 2
 %endif
 
-Name:           dde-device-formatter
+Name:           lingmo-device-formatter
 Version:        0.0.1.8
 Release:        %{specrelease}
 Summary:        A simple graphical interface for creating file system in a block device
 License:        GPLv3+
-URL:            https://github.com/linuxdeepin/dde-device-formatter
+URL:            https://github.com/linuxdeepin/lingmo-device-formatter
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires: qt5-devel
 BuildRequires: dtkwidget-devel
 BuildRequires: dtkgui-devel
 BuildRequires: udisks2-qt5-devel
-BuildRequires: deepin-gettext-tools
+BuildRequires: lingmo-gettext-tools
 
 %description
 %{summary}.

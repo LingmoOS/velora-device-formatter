@@ -1,4 +1,4 @@
-Source: velora-device-formatter
+Source: lingmo-device-formatter
 Section: utils
 Priority: optional
 Maintainer: Lingmo OS Team <team@lingmo.org>
@@ -14,9 +14,9 @@ Build-Depends: cmake,
   libdtkcore-dev | libdtk6core-dev,
   libudisks2-qt5-dev | libudisks2-qt6-dev
 Standards-Version: 4.5.0
-Homepage: https://github.com/LingmoOS/velora-device-formatter
+Homepage: https://github.com/LingmoOS/lingmo-device-formatter
 
-Package: dde-device-formatter
+Package: lingmo-device-formatter
 Architecture: any
 Depends: ${shlibs:Depends},
   ${misc:Depends},
